@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/CustomTab</item>
+        <item name="android:actionBarTabBarStyle">@style/CustomTabBar</item>
+        </style>
+
+    <style name="TagTheme">
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#fe6968</item>
+    </style>
+ 
+    <style name="Stream">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:divider">@android:color/white</item>
+        <item name="android:dividerHeight">9dip</item>
+    </style>
+    
+    <style name="StreamItem">
+        <item name="android:background">#f2f3f4</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingTop">25dip</item>
+        <item name="android:paddingBottom">25dip</item>
+    </style>
+    
+    <style name="MainText">
+        <item name="android:textColor">#646464</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+    
+    <style name="Date">
+        <item name="android:textColor">#646464</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+    
+    <style name="ComplementaryText">
+        <item name="android:textColor">#868485</item>
+    </style>
+
+    <style name="LightText">
+        <item name="android:textColorHint">#f2f3f4</item>
+    </style>
+    
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#fe6968</item>
+        <item name="android:titleTextStyle">@style/ActionBarStyle.TitleTextStyle</item> 
+    </style>
+
+	<style name="ActionBarStyle.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	  <item name="android:textColor">#f2f3f4</item>
+	</style>
+
+    <style name="CustomTab">
+        <item name="android:textColor">#fe6968</item>
+    </style>
+
+    <style name="CustomTabBar">
+    </style>
+    
+</resources>

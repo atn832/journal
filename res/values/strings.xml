@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Journal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_photos">Flickr Photos</string>
+    <string name="login_label">Log in</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="event">Event</string>
+    <string name="compose_hint">What\'s going on?</string>
+    <string name="title_activity_compose">ComposeActivity</string>
+    <string name="event_description">What have you done today?</string>
+    <string name="event_tag_hint">create your own tag</string>
+</resources>
